@@ -1,0 +1,262 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  text-decoration: none;
+}
+
+.head_container{
+ position:fixed;
+ background-color:#f2f2f2;
+ width:100%;
+
+}
+.navigation
+{
+  position:fixed;
+text-align: right;
+}
+a{
+  font-size: 20px;
+  padding:10px 10px;
+  color:rgb(52, 155, 235);
+
+}
+.login , .signup{
+  float:right;
+}
+/*
+display: block;
+position:fixed;
+width:100%;
+float:left;
+text-decoration: none;
+color: blue;*/
+/* Header */
+header {
+	padding: 0 0;
+
+  height:auto;
+  font-size: 20px;
+  max-width: 100%;
+
+
+}
+body{
+  margin:0;
+  max-width: 100%;
+  align-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	vertical-align:middle;
+}
+
+nav .credentials{
+  list-style:none;
+  float: right;
+  margin: 0 10px 15px;
+
+}
+li {
+	display:inline-block;
+	vertical-align:middle;
+
+
+}
+div{
+  display: block;
+
+}
+h1{
+  font-size: 25px;
+  text-align:center;
+}
+.image_txt{
+  font-weight: bolder;
+  color: white;
+}
+span{
+  text-align: center;
+  padding:8px 16px;
+  opacity:0.75;
+  background-color: black;
+  position:relative;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    width:1537px;
+    aspect-ratio:auto 1500 / 800;
+    height:auto;
+}
+.logo
+{
+   max-width: 10%;
+   max-height: 10%;
+}
+.header_image{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+.first{
+  text-align: center;
+}
+
+/*Form Css styling*/
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(3, 36, 252);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(52, 155, 235);
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  clear:both;
+
+
+}
+
+/* Create two columns that float next to eachother */
+.column {
+
+  clear:both;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+
+  display:block;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+form{
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 25%;
+  width:100%;
+  font-weight:bolder;
+
+
+ }
+ button:hover {
+  opacity:1;
+}
+.login_container
+ {
+  padding: 16px;
+
+ }
+ span.pass {
+  float: right;
+  padding-top: 16px;
+  background-color: white;
+}
+button {
+  background-color: rgb(3, 36, 252);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color:rgb(52, 155, 235) ;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  height:30px;
+
+}
+main
+{
+    flex:auto;
+    flex:direction:row;
+    background-color:#FFF5EB;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/*
+header li:first-child {
+	margin: 0;
+}
+header li a {
+	margin: 0 10px;
+}
+header li.logo {
+	font-size: 36px;
+}
+*/
